@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Alumno {
     private List <Materia> materiasAprobadas;
-
+    private Integer legajo;
     public Alumno(List<Materia> materias) {
         this.materiasAprobadas = materias;
     }
